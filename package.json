@@ -4,8 +4,10 @@
   "description": "Node.js test app for OpenShift 3",
   "main": "server.js",
   "dependencies":{
+    "express": "^4.13.4"
   },
   "engine": {
+    "node":"*"
   },
   "scripts": {
     "start":"node server.js"
