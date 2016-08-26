@@ -1,0 +1,14 @@
+{
+  "name": "nodetest",
+  "version": "0.0.1",
+  "description": "Node.js test app for OpenShift 3",
+  "main": "server.js",
+  "dependencies":{
+  },
+  "engine": {
+  },
+  "scripts": {
+    "start":"node server.js"
+  }
+}
+
