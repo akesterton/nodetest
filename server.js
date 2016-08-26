@@ -4,7 +4,7 @@ var http = require('http');
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello OpenShift v3 World\n");
+  response.end("Hello OpenShift v3 World - test complete\n");
 });
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
